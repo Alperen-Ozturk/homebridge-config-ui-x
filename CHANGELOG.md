@@ -2,24 +2,36 @@
 
 All notable changes to this project will be documented in this file. This project uses [Semantic Versioning](https://semver.org/).
 
-## NEXT
+## 4.37.0 (2021-01-30)
 
 ### Notable Changes
 
 * **i18n:** Macedonian (mk) language added by [@dimovskidamjan](https://github.com/dimovskidamjan) ([#1011](https://github.com/oznu/homebridge-config-ui-x/pull/1011))
   * The Homebridge UI is now available in 24 different languages!
-* **Homebridge:** Added the ability to swap between the `ciao` and `bonjour-hap` mdns advertisers (this feature will appear in *Homebridge Settings* when the upcoming release of Homebridge v1.3.0 is installed)
-* **Plugins:** Added the ability to disable plugins without having to uninstall them or remove their config from the Homebridge `config.json` file (this feature requires Homebridge v1.3.0 or later) ([#287](https://github.com/oznu/homebridge-config-ui-x/issues/287),[#790](https://github.com/oznu/homebridge-config-ui-x/issues/790),[#791](https://github.com/oznu/homebridge-config-ui-x/issues/791),[#864](https://github.com/oznu/homebridge-config-ui-x/issues/864),[#931](https://github.com/oznu/homebridge-config-ui-x/issues/931),[#990](https://github.com/oznu/homebridge-config-ui-x/issues/990),[#1029](https://github.com/oznu/homebridge-config-ui-x/issues/1029))
+* **Plugins:** The following features have been added to assist plugin developers building [custom plugin user interfaces](https://github.com/homebridge/plugin-ui-utils):
+  * Added an option to retrive a list of cached accessories for the plugin using the `homebridge.getCachedAccessories` method
 
 ### Other Changes
 
-* **i18n:** Improvements to Portuguese language translations ([#1014](https://github.com/oznu/homebridge-config-ui-x/pull/1014),[#1034](https://github.com/oznu/homebridge-config-ui-x/pull/1034))
-* **i18n:** Improvements to Polish language translations ([#1032](https://github.com/oznu/homebridge-config-ui-x/pull/1032))
-* **i18n:** Improvements to French language translations ([#1035](https://github.com/oznu/homebridge-config-ui-x/pull/1035))
+* **i18n:** Improvements to Portuguese language translations ([#1014](https://github.com/oznu/homebridge-config-ui-x/pull/1014),[#1034](https://github.com/oznu/homebridge-config-ui-x/pull/1034),[#1038](https://github.com/oznu/homebridge-config-ui-x/pull/1038))
+* **i18n:** Improvements to Polish language translations ([#1032](https://github.com/oznu/homebridge-config-ui-x/pull/1032),[#1036](https://github.com/oznu/homebridge-config-ui-x/pull/1036))
+* **i18n:** Improvements to French language translations ([#1035](https://github.com/oznu/homebridge-config-ui-x/pull/1035),[#1037](https://github.com/oznu/homebridge-config-ui-x/pull/1037))
+* **i18n:** Improvements to Catalan language translations ([#1042](https://github.com/oznu/homebridge-config-ui-x/pull/1042))
+* **i18n:** Improvements to Spanish language translations ([#1039](https://github.com/oznu/homebridge-config-ui-x/pull/1039))
+* **i18n:** Improvements to Turkish language translations ([#1041](https://github.com/oznu/homebridge-config-ui-x/pull/1041))
+* **i18n:** Improvements to Traditional Chinese language translations ([#1045](https://github.com/oznu/homebridge-config-ui-x/pull/1045))
 
 ### Bug Fixes
 
 * **Dashboard:** The battery accessory type is now correctly displayed in the Accessories widget ([#998](https://github.com/oznu/homebridge-config-ui-x/issues/998))
+
+### Homebridge v1.3.0 Features
+
+These features will appear in once Homebridge v1.3.0 or later is installed (currently in beta):
+
+* **Homebridge:** Added the ability to swap between the `ciao` and `bonjour-hap` mdns advertisers.
+* **Plugins:** Added the ability to disable plugins without having to uninstall them or remove their config from the Homebridge `config.json` file ([#287](https://github.com/oznu/homebridge-config-ui-x/issues/287),[#790](https://github.com/oznu/homebridge-config-ui-x/issues/790),[#791](https://github.com/oznu/homebridge-config-ui-x/issues/791),[#864](https://github.com/oznu/homebridge-config-ui-x/issues/864),[#931](https://github.com/oznu/homebridge-config-ui-x/issues/931),[#990](https://github.com/oznu/homebridge-config-ui-x/issues/990),[#1029](https://github.com/oznu/homebridge-config-ui-x/issues/1029))
+
 
 ## 4.36.0 (2020-12-07)
 
